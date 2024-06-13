@@ -9,9 +9,6 @@ h3 {
 h1 {
   font-family: "Poetsen One", sans-serif;
   font-size: 35px;
-
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -22,15 +19,12 @@ a {
 }
 
 .navbar {
-  padding: 10px 50px;
+  width: 100%;
+
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  position: sticky;
-  top: 0;
-  z-index: 1;
   height: 100px;
 }
 
@@ -38,6 +32,7 @@ a {
   display: flex;
   gap: 20px;
   align-items: center;
+  margin-right: 50px;
 }
 
 .links a {
@@ -62,21 +57,14 @@ a {
 }
 
 .link:hover {
-  color: #ff0000;
+  color: black;
+  transform: scale(1.1);
 }
 
 .logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-left: 50px;
 }
 
 @media only screen and (max-width: 450px) {
   /* Styles */
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
 }

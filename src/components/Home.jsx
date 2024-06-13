@@ -6,8 +6,7 @@ import "./styles/home.css";
 const Home = () => {
   return (
     <div>
-      <div className="video-container">
-        <video src={video} autoPlay loop muted type="video/mp4" width="100%" />
+      <div className="content-container">
         <div className="content">
           <div className="text">
             <h1>Mobile Detailing</h1>
